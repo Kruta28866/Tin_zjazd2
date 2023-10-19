@@ -1,0 +1,38 @@
+body{
+    color: black;
+    background-image: url("Background-image.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+}
+
+#Topnav{
+    text-decoration: none;
+    color: brown;
+    float: left;
+    width: 200px;
+    background: #EBEBEB;
+    padding: unset;
+}
+
+#Container{
+    width: 780px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    text-align: left;
+}
+#MainContent{
+    margin: 0 0 0 250px;
+    padding: 0 20px 20px 20px;
+}
+
+
