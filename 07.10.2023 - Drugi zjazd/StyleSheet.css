@@ -1,4 +1,4 @@
-body{
+body {
     color: black;
     background-image: url("Background-image.jpg");
 }
@@ -6,33 +6,58 @@ body{
 a {
     text-decoration: none;
 }
-ul{
+
+ul {
     text-decoration: none;
     list-style-type: none;
 }
-li{
+
+li {
+    border-style: solid;
     text-decoration: none;
+    list-style-type: none;
+    border-width: 1px;
+    border-color: cadetblue;
+
+    }
+
+footer {
+    color: #EBEBEB;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-#Topnav{
+#Topnav {
     text-decoration: none;
     color: brown;
     float: left;
     width: 200px;
-    background: #EBEBEB;
     padding: unset;
+    background-color: lightblue;
 }
 
-#Container{
+#Container {
     width: 780px;
     background: #FFFFFF;
     margin: 0 auto;
     border: 1px solid #000000;
     text-align: left;
 }
-#MainContent{
+
+#MainContent {
     margin: 0 0 0 250px;
     padding: 0 20px 20px 20px;
 }
 
+.guzik {
+    background-color: lightblue;
+}
+
+
+.guzik:hover {
+    background-color: darkcyan;
+}
 
