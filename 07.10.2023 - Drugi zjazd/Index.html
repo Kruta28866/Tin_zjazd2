@@ -10,39 +10,132 @@
 </head>
 <body>
 
+<div class="container">
+    <div class="leftNavi"> <!-- Tutaj ustawiamy wygląd paska nawigacyjnego -->
+        <ul class="outUl">  <!-- Tutaj ustawiamy wygląd na zewnątrz -->
+            <li>link 1</li>
+            <ul class="inUl"> <!-- Tutaj ustawiamy wygląd wewnątrz-->
 
-<div id="Container">
+                <li>
+                    <a href="https://www.youtube.com/">link 2</a>
+                </li>
+                <li>
+                    <a href="https://pl.wikipedia.org">link 2</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/">link</a>
+                </li>
 
-    <div id="Topnav">
-        <li class="guzik"> Link 1</li>
-        <ul>
-            <li class="guzik">
-                <a href="https://www.youtube.com/">Youtube</a>
-            </li>
-            <li class="guzik">
-                <a href="https://pl.wikipedia.org">Wikipedia</a>
-            </li>
-            <li class="guzik">
-                <a href="https://www.w3schools.com/">W3Schools</a>
-            </li>
+            </ul>
+            <li class="guzik">link2</li>
+            <li class="guzik">link3</li>
         </ul>
-        <li class="guzik">Link 2</li>
-        <li class="guzik">Link 3</li>
     </div>
 
 
-    <div id="MainContent">
+    <div class="mainContent">
+        <h1>Title 1</h1>
         <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam consequuntur cumque dicta enim excepturi
             fugiat illum, impedit laboriosam maiores non numquam provident quia quibusdam ratione reiciendis saepe sit,
-            velit.</a>
-        <img src="img_girl.jpg" alt="Girl in a jacket" width="200" height="300">
+            velit.<br></a>
+        <img src="pexels-pixabay-36717.jpg" alt="Girl in a jacket" width="100" height="80">
+        <h2>Subtitle </h2>
+        <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam consequuntur cumque dicta enim excepturi
+            fugiat illum, impedit laboriosam maiores non numquam provident quia quibusdam ratione reiciendis saepe sit,
+            velit.<br></a>
+        <h2>Subtitle </h2>
+        <a> lore ipsum<br><br></a>
+
+        <div class="sideContent">
+
+            <div class="column-left">
+                <label> Imie nazwisko<br></label>
+                <input type="text" placeholder="imie nazwisko"><br>
+                <label>Opis<br></label>
+                <textarea name="tekst" id="poleTekstowe" style="width: 300px; height: 150px;"
+                          placeholder="Napisz coś o sobie"></textarea>
+            </div>
+
+            <div class="column-right">
+                <label>Wiek<br></label>
+                <select name="" id="age" placeholder="wiek">
+                    <option value="1-18">1-18</option>
+                    <option value="18-26">18-26</option>
+                    <option value="26-50">26-50</option>
+                    <option value="50+">50+</option>
+                </select>
+                <form>
+                    <label>Opcja<br></label>
+                    <label>
+                        <input type="radio" name="litera" value="A"> A
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="litera" value="B"> B
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="litera" value="C"> C
+                    </label>
+                </form>
+                <input type="submit" value="Wyślij">
+            </div>
+        </div>
+
+
+        <table class="myTable">
+            <tr>
+                <th>col1</th>
+                <th>col2</th>
+                <th>col3</th>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+
+            </tr>
+        </table>
 
     </div>
-    <footer class>
-        <p>simple text 1</p>
-        <p>simple text 2</p>
-        <p>simple text 3</p>
-    </footer>
 </div>
+
+<footer>
+    <p>simple text 1</p>
+    <p>simple text 2</p>
+    <p>simple text 3</p>
+</footer>
+
+
 </body>
 </html>
